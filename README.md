@@ -1,0 +1,1 @@
+# vaadin-i18n-freemarker
