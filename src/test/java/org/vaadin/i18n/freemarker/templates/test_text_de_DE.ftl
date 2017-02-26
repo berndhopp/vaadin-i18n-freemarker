@@ -1,0 +1,1 @@
+hallo ${user}! Bla Bla Bla. Mit freundlichen Grüßen
