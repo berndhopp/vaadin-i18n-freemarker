@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>vaadin-i18n</groupId>
@@ -26,17 +26,17 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.vaadin</groupId>
-            <artifactId>i18n</artifactId>
-            <version>${i18n.version}</version>
+            <groupId>org.lisa</groupId>
+            <artifactId>lisa</artifactId>
+            <version>${lisa.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -62,9 +62,9 @@
         </dependency>
     </dependencies>
     <properties>
-        <i18n.version>1.0.1</i18n.version>
-        <freemarker.version>2.3.25-incubating</freemarker.version>
+        <freemarker.version>2.3.26-incubating</freemarker.version>
         <servlet-api.version>2.5</servlet-api.version>
         <junit.version>4.12</junit.version>
+        <lisa.version>1.0-SNAPSHOT</lisa.version>
     </properties>
 </project>
